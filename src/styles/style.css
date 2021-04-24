@@ -2,12 +2,11 @@
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #0E1220;
+  background-color: #0D1117;
   color: #B7BABE;
   font-family: 'Roboto', sans-serif;
   display: flex;
@@ -19,9 +18,11 @@ body {
 }
 
 h1 {
-  margin-bottom: 0;
+  margin-bottom: 10px;
   text-align: center;
-  color: #4CD964;
+  color: #4EA6FF;
+  font-size: 30pt;
+  font-weight: bold;
 }
 
 .filter-container {
@@ -40,7 +41,7 @@ h1 {
 
 .post {
   position: relative;
-  background-color: #101828;
+  background-color: #161B22;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   border-radius: 3px;
   padding: 30px;
@@ -71,7 +72,7 @@ h1 {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: #4CD964;
+  background: #4EA6FF;
   color: #0E1220;
   display: flex;
   align-items: center;
@@ -92,7 +93,7 @@ h1 {
 }
 
 .circle {
-  background-color: #4CD964;
+  background-color: #4EA6FF;
   width: 10px;
   height: 10px;
   border-radius: 50%;
